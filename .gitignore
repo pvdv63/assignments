@@ -1,0 +1,38 @@
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+composer.phar
+vendor/
+deploy
+
+# Ignore npm files
+
+node_modules/
+npm-debug.log
+
+# Ignore Mac files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+#wordpress
+wp-config.php
+wp-content/wp-upload
+
+#meteor 
+todo.txt
+config/
+uploads/
+config.push.json
+build
+
+deploy.sh
