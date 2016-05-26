@@ -10,7 +10,7 @@ If you want me to check your homework you have to follow a couple of steps.
   * The name of the repo is on the page under the clone and download button, use either SSH or HTTPS.
 * Once you have cloned the repo, go to the assignments dir /public/assignments/
 * In here you can see every assignment that I will put on my website as well [royniels.nl](http://www.royniels.nl/categories/Assignment/).
-* duplicate the __braadworst_ dir and name it after your own username on github.
+* duplicate the braadworst dir and name it after your own username on github.
 * Start doing the assignments, once you have finished you can add, commit and push your code like so
   * adding your code: git add --all
   * commiting your code: git commit -m "Your commit message"
