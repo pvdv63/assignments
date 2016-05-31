@@ -23,8 +23,12 @@ function put(text) {
 */
 var all = [12, 1238, 3724, 43, 89, 11, 32443287];
 var odds = [];
-all.forEach(function(element) { odds.push(element); });
-assert([12, 1238, 3724, 43, 89, 11, 32443287], odds); 
+all.forEach(function(element) { 
+  if (element % 2 === 1) {
+    odds.push(element); 
+  }
+});
+assert([43, 89, 11, 32443287], odds);
 
 /*
   We want to round the decimal below, write some code that rounds the decimal to 8 and 7
