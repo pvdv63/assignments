@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learn to build apps and websites (for FREE)</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <style>
+    body {
+      margin: 20px;
+    }
+    table td {
+      text-align: center;
+      padding: 20px;
+    }
+    .pizza {
+      margin: 10px auto;
+      border-radius: 50%;
+      background-color: #FAFAD2;
+      height: 100px;
+      width: 100px;
+      border: 3px solid rgba(0,0,0,.2);
+      position: relative;
+    }
+    .thick-crust {
+      border-width: 10px;
+    }
+    .sauce {
+      background-color: #FF6347;
+    }
+    .salami:after {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: red;
+    }
+    .cheese:before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: yellow;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Pizza's</h1>
+    <h4>All toppings, combine them and go nuts!</h4>
+    <table>
+      <tr>
+        <td>
+          <div class="pizza thick-crust"></div>
+          Thick crust
+        </td>
+        <td>
+          <div class="pizza salami"></div>
+          Salami
+        </td>
+        <td>
+          <div class="pizza cheese"></div>
+          Cheese
+        </td>
+        <td>
+          <div class="pizza sauce"></div>
+          Sauce
+        </td>
+      </tr>
+    </table>
+
+    <h4>Your selection:</h4>
+    <table>
+      <tr>
+        <td>
+          <div class="pizza pizza1"></div>
+          Thick crust, sauce and cheese
+        </td>
+        <td>
+          <div class="pizza pizza2"></div>
+          Sauce and salami
+        </td>
+        <td>
+          <div class="pizza pizza3"></div>
+          Thick crust, sauce, salami and cheese
+        </td>
+        <td>
+          <div class="pizza pizza4"></div>
+          Cheese and Salami
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
